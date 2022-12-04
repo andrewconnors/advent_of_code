@@ -6,3 +6,5 @@ Day 2- Rock Paper Scissors: :white_check_mark: :white_check_mark:
 
 Day 3- Rucksack Packing: :white_check_mark: :white_check_mark:
 
+Day 4- Cleaning Assignments: :white_check_mark: :white_check_mark: (Had a nasty bug in this one for a while where I compared strings instead of converting to ints first.)
+
