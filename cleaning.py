@@ -24,12 +24,10 @@ if __name__ == "__main__":
         for line in input:
             a1_low, a1_high, a2_low, a2_high = split_input(line)
             full_overlap: bool = check_full_overlap(a1_low, a1_high, a2_low, a2_high)
-            if full_overlap:
-                full_overlap_count += 1
+            full_overlap_count += 1 if full_overlap else 0
             
             overlap: bool = check_overlap(a1_low, a1_high, a2_low, a2_high)
-            if overlap:
-                any_overlap_count += 1
+            any_overlap_count += 1 if overlap else 0
         
         print(f"The amount of section assignments that fully overlap are: {full_overlap_count}")
         print(f"The amount of section assignments that have any overlap are: {any_overlap_count}")
