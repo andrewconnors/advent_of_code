@@ -10,3 +10,4 @@ Day 4- Cleaning Assignments: :white_check_mark: :white_check_mark: (Had a nasty 
 
 Day 5- Crate Stacking: :white_check_mark: :white_check_mark: Took a break on this one. Had some issues with input processing and a busy week.
 
+Day 6- Sognal Locking: :white_check_mark: :white_check_mark: Proud of how fast and clean this one was.
